@@ -1,4 +1,6 @@
-# The Best Lua Objective C wrapper
+forked from Reed Weichler repo with some modifications
+
+# The Lua Objective C wrapper
 
 This is intended to speed up development with Lua in Objective C. It's kind of slow if you're passing values in and out of it in a huge loop (has to convert to NS\* and back a bunch of times) but it's really useful if you just need to get one thing into the interpreter or get one thing out of the interpreter. You don't even need to understand how the stack works!
 
